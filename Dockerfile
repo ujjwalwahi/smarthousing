@@ -1,10 +1,8 @@
 # Set the base image to Ubuntu
-FROM python:2.7
+FROM ubuntu
 
 # File Author / Maintainer
 MAINTAINER Ujjwal Wahi
-
-ENV PYTHONUNBUFFERED 1
 
 RUN mkdir /code
 
